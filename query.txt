@@ -1,0 +1,8 @@
+SELECT
+    raw.[ARP].[dbo_Employee_Role]. [EmployeeRoleId] AS EmployeeId,
+    raw.[ARP].[dbo_Employee_Role].[RoleId] AS RoleId,
+    processed.[HR].[Dim_Role].[Role] AS Rolelabel
+FROM
+    raw.[ARP].[dbo_Employee_Role]
+
+JOIN processed.[HR].[Dim_Role] ON raw.[ARP].[dbo_Employee_Role].[roleId] = processed.[HR].[Dim_Role].[roleId]

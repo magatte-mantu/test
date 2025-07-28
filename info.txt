@@ -1,0 +1,25 @@
+Ca sert a rien la colonne onenote des extract non?
+apres transfo powerquery?
+
+UncontractualBonus:	Paid: 1/0 ou YES/NO
+					EffectMonth a rajouter?
+					approvalstatus (remplacer id par nom)
+						
+bridgeemployeerole: OK, mais pq plusieurs fois les memes lignes sur powerquery?
+
+
+GetEmployeeDocumentAcceptancy_ITCharter: mauvais nom / fItCharter
+										 pas de données correspondante trouvable sur azure (peut etre on premise sql)
+
+
+fMobilityCase: on premise sql?
+			   dbo_GATE_MaterialRequest non trouvable
+
+fNDA:idk what is this one
+
+fImmatriculation: OK, take into account YM ?
+...
+
+
+
+
